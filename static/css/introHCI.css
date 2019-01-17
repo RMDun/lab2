@@ -12,8 +12,9 @@
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
-     border: 1px dotted gray;
-     padding: 20px;
+     
+     
+    
 }
 
 .jumbotron {
@@ -31,4 +32,22 @@ body {
      right: 0;
      position: absolute;
      z-index: -1;	
+}
+
+p {
+     font-variant: small-caps;
+}
+
+#project {
+   
+     font-variant: small-caps;
+}
+
+.project {
+     font-variant: small-caps;
+     
+     margin-left: 20px;
+     background-color: #e80c7a;
+     padding: 20px;
+     width: 525px; 
 }
